@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+
+}
+
+.header_container {
+  background-image: url("../img/header-bg.jpg");
+  height: 800px;
+  text-align: center;
+  padding: 141px 260px 72px 281px;
+}
+
+ header h1 {
+  font-family: Literata;
+  font-size: 160px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 238px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 272px;
+}
+
+header button {
+  width: 250px;
+  height: 77px;
+  font-family: PT Serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+  /*section_1*/
+.tours_container {
+  background: #E5E5E5;
+  border: 0;
+  width: 1440px;
+  padding: 65px 0 68px;
+}
+
+.articles_container {
+  display: flex;
+  justify-content: space-between;
+  padding: ;
+}
+
+.articles_container article {
+  width: 454px;
+  text-align: center;
+}
+
+h2 {
+  font-family: PT Serif Caption;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.tours_container h3 {
+  text-align: center;
+  font-family: PT Serif Caption;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 42px;
+  border-bottom: 1px solid #000000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.articles_container p {
+  padding: 0 10px;
+  font-family: PT Serif Caption;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+}
+
+.tours_container img {
+  margin-bottom: 24px;
+}
+
+  /*section_2*/
+
+.map_container {
+  padding: 66px 0 87px;
+  background-color: #E5E5E5;
+}
+
+.map_container h2 {
+  margin-bottom: 87px;
+}

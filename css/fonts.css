@@ -1,0 +1,44 @@
+/* literata-regular - cyrillic */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/literata-v23-cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/literata-v23-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/literata-v23-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/literata-v23-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/literata-v23-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/literata-v23-cyrillic-regular.svg#Literata') format('svg'); /* Legacy iOS */
+}
+
+/* pt-serif-regular - latin_cyrillic */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-serif-v16-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/pt-serif-v16-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/pt-serif-v16-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/pt-serif-v16-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/pt-serif-v16-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/pt-serif-v16-latin_cyrillic-regular.svg#PTSerif') format('svg'); /* Legacy iOS */
+}
+
+
+/* pt-serif-caption-regular - latin_cyrillic */
+@font-face {
+  font-family: 'PT Serif Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-serif-caption-v15-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/pt-serif-caption-v15-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/pt-serif-caption-v15-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/pt-serif-caption-v15-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/pt-serif-caption-v15-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/pt-serif-caption-v15-latin_cyrillic-regular.svg#PTSerifCaption') format('svg'); /* Legacy iOS */
+}
+
+
