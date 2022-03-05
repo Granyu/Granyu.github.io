@@ -54,7 +54,6 @@ header button {
 .articles_container {
   display: flex;
   justify-content: space-between;
-  padding: ;
 }
 
 .articles_container article {
@@ -112,3 +111,11 @@ h2 {
 .map_container h2 {
   margin-bottom: 87px;
 }
+
+  /*footer*/
+
+.contact {
+  width: 1440px;
+  background-color: #C4C4C4;
+}
+
