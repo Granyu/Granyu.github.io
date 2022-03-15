@@ -57,19 +57,45 @@
 	</section>
 
 	<footer>
-		<div class="contact">
-			<img src="img/phone.png">
-			<p>8(496) 382-21-07</p>
-			<img src="img/vk.png">
-			<p><a href="https://m.vk.com › mozhaiskgo_adm">mozhaiskgo_adm</a></p>
-			<img src="img/ok.png">
-			<p><a href="https://ok.ru › mozhaiskigo">mozhaiskigo</a></p>
-			<img src="img/instagram.png">
-			<p><a href="https://www.instagram.com › adm_mgo">adm_mgo</a></p>
-		</div>
+		<div class="container container_contacts">
+			<div class="contact">
+				<p class="contacts_heading">Контакты</p>
+				<div class="contact_item">
+					<a href="tel:+74963822107"><img src="img/phone.png"></a>
+					<a href="tel:+74963822107">8&nbsp;(496)&nbsp;382-21-07</a>
+				</div>
 
-		<div class="email">
-			
+				<div class="contact_item">
+					<a href="https://m.vk.com › mozhaiskgo_adm"><img src="img/vk.png"></a>
+					<a href="https://m.vk.com › mozhaiskgo_adm">mozhaiskgo_adm</a>
+				</div>
+
+				<div class="contact_item">
+					<a href="https://ok.ru › mozhaiskigo"><img src="img/ok.png"></a>
+					<a href="https://ok.ru › mozhaiskigo">mozhaiskigo</a>
+				</div>
+
+				<div class="contact_item">
+					<a href="https://www.instagram.com › adm_mgo"><img src="img/instagram.png"></a>
+					<a href="https://www.instagram.com › adm_mgo">adm_mgo</a>
+				</div>
+
+				<div class="contact_item">
+					<a href="https://www.facebook.com › adminmozhaisk"><img src="img/facebook.png"></a>
+					<a href="https://www.facebook.com › adminmozhaisk">adminmozhaisk</a>
+				</div>
+
+			</div>
+
+			<div class="email">
+				<div class="email_heading">Подписаться на e-mail рассылку:</div>
+				<form action="http://192.168.1.20:8000/cgi-bin/form.py">
+					<input type="email" placeholder="Введите адрес эл. почты" name="email" id="email"><br>
+					<input type="checkbox" id="agree" name="согласие" value="согласен">
+					<label for="agree" id="agree_label">соглашаюсь на отправку уведомлений</label><br>
+					<button id="subscribe">Подписаться</button>
+				</form>	
+			</div>
 		</div>
 	</footer>
 </body>
