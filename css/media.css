@@ -1,0 +1,24 @@
+@media (max-width: 480px) {
+	.header_container {
+		width: 100vw;
+		max-height: 267px;
+		background-size: cover;
+		background-position: right bottom;
+		padding: 63px 38px 32px;
+		}
+
+		.header_container h1 {
+			font-size: 40px;
+			margin-bottom: 74px;
+			line-height: normal;
+		}
+
+		.header_container button {
+			width: 80px;
+			height: 27px;
+			font-size: 10px;
+			line-height: normal;
+			border: 0;
+			padding: 7px 11px;
+		}
+	}
