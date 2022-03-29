@@ -45,7 +45,6 @@ header button {
 .tours_container {
   background: #E5E5E5;
   border: 0;
-  width: 1440px;
   padding: 65px 0 68px;
 }
 
@@ -76,7 +75,7 @@ h2 {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 28px;
+  line-height: normal;
   color: #000000;
   margin-bottom: 42px;
   border-bottom: 1px solid #000000;
