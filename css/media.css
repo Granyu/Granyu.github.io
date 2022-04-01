@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	* {
 		line-height: normal;
 	}
@@ -80,8 +80,55 @@
 		padding: 82px 15px 37px;
 	}
 
-	.container_contacts {
+	.footer_container {
 		flex-direction: column-reverse;
+		padding: 21px 0;
 	}
 
+	.email_heading {
+		margin-bottom: 7px;
+	}
+
+	#email {
+		margin-bottom: 10px;
+	}
+
+	.agree {
+		margin-bottom: 10px;
+	}
+
+	#subscribe {
+		margin-bottom: 33px;
+	}
+
+	.contacts_heading {
+		margin: 0 auto 33px;
+	}
+
+	.contact_item:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+	* {
+		line-height: normal;
+	}
+
+	.container {
+		width: 100vw;
+	}
+
+	.header_container {
+		width: 100vw;
+		background-size: cover;
+		background-position: right bottom;
+		padding: 63px 38px 32px;
+	}
+
+	.header_container h1 {
+		font-size: 120px;
+		margin: 120px auto 280px;
+		line-height: normal;
+	}
 }
