@@ -1,1 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'JejuMyeongjo';
+}
 
+body {
+	margin: 0;
+}
+
+header {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	column-gap: 30px;
+	background-color: #F0E9D1;
+	padding-top: 16px;
+	grid-row-gap: 17px;
+}
+
+.header_info_mobile, .header_info_desktop {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	color: #546544;
+}
+
+.header_logo {
+	grid-column: 6 / 8;
+}
+
+.menu {
+	grid-column: 1 / -1;
+	background-color: #C3C4A9;
+	padding: 17px 0;
+}
+
+.menu_container {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+.menu_item:not(last-child) {
+	margin-right: 44px;
+} 
+
+.menu_item a {
+	text-decoration: none;
+	color: #000;
+}
+
+.main_image {
+	height: 536px;
+	background-image: url(../img/main.jpg);
+	background-size: cover;
+}
